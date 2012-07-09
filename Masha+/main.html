@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <script></script>
+    <noscript>U dont have JS</noscript>
+    <style>
+        .main
+        {
+            position: relative;
+            height: 300px;
+            width: 600px;
+            left: 300px;
+        }
+        .view
+        {
+            position: relative;        ;
+            z-index: auto;
+            border-style: outset;
+            border-color: gray;
+            background: white;
+            height: 250px;
+            width: 600px;
+        }
+        .tabview
+        {
+            position: relative;
+            height: 50px;
+            width: 600px;
+            border-style: outset;
+        }
+        .tab1
+        {
+            position: static;
+            height: 50px;
+            width: 200px;
+            border-style: outset;
+            border-color: gray;
+            top: 0px;
+        }
+        .tab2
+        {
+            position: absolute;
+            height: 50px;
+            width: 200px;
+            border-style: outset;
+            border-color: gray;
+            left: 200px;
+            top: 0px;
+        }
+        .tab3
+        {
+            position: absolute;
+            height: 50px;
+            width: 200px;
+            border-style: outset;
+            border-color: gray;
+            left: 400px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "main">
+            <div id = "tab1" class = "tab1"></div>
+            <div id = "tab2" class = "tab2"></div>
+            <div id = "tab3" class = "tab3"></div>
+        <div id = "view" class = "view"></div>
+    </div>
+</body>
+</html>
