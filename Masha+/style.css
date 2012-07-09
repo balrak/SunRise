@@ -1,0 +1,34 @@
+body {
+    background: #FFB200;
+    color: #3F3F3F;
+    font: normal 12px/18px verdana, sans-serif;
+}
+.main-site {
+    width: 780px;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px;
+
+    box-shadow:0 0 10px 0 #555555;
+    -webkit-box-shadow:0 0 10px 0 #555555;
+    -moz-box-shadow:0 0 10px 0 #555555;
+    border: 1px solid black;
+    display: block;
+}
+.main-site ul li {
+    display: inline;
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+.view {
+    border: 1px solid black;
+    height: 550px;
+    width: 700px;
+    margin-left: 39px;
+    margin-bottom: 20px;
+}
